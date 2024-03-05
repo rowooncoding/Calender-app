@@ -16,7 +16,7 @@ public abstract class AbstractEvent implements Event {
 
     private boolean deletedYn; // 조회 가능 여부 체크
 
-    public AbstractEvent(int id, String title, ZonedDateTime startAt, ZonedDateTime endAt, Duration duration, ZonedDateTime createdAt, ZonedDateTime modifiedAt, boolean deletedYn) {
+    public AbstractEvent(int id, String title, ZonedDateTime startAt, ZonedDateTime endAt) {
         this.id = id;
         this.title = title;
         this.startAt = startAt;
