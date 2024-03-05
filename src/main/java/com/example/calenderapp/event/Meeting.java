@@ -1,6 +1,5 @@
 package com.example.calenderapp.event;
 
-import java.time.Duration;
 import java.time.ZonedDateTime;
 import java.util.Set;
 
@@ -19,6 +18,6 @@ public class Meeting extends AbstractEvent {
 
     @Override
     public void print() {
-
+        System.out.printf("[회의] %s : %s%n", getTitle(), agenda);
     }
 }
