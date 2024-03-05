@@ -29,4 +29,8 @@ public abstract class AbstractEvent implements Event {
 
         this.deletedYn = false;
     }
+
+    public String getTitle() {
+        return title;
+    }
 }
